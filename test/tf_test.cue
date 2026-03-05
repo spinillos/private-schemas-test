@@ -16,8 +16,8 @@ v0alpha1: {
 			val5: [...string] | *["a"]
 			val6: [...string] | *[]
 			val7: [string]: string | *{
-				a:   "x"
-				"b": "y"
+				a: "x"
+				b: "y"
 			}
 			val8: [string]: string | *{}
 			val9:  Enum
