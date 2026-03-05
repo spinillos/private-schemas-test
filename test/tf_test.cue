@@ -31,12 +31,12 @@ v0alpha1: {
 			val17: Enum1 & 1
 			val18: Enum1 & (*1 | _)
 			val19: int64 & >=0 & <24 | *4
-			val19: int64 & >=0 & <24 | *4
-			val20: string & strings.MinRunes(1) & strings.MaxRunes(1024)
-			val21: string & =~"^[a-zA-Z0-9_-]+$"
-			val22: string & time.Time
-			val23: time.Duration & =~"^((([0-9]+)y)?(([0-9]+)w)?(([0-9]+)d)?(([0-9]+)h)?(([0-9]+)m)?(([0-9]+)s)?(([0-9]+)ms)?|0)$"
-			val24?: [...string] & list.UniqueItems() & list.MaxItems(64)
+			val20: int64 & >=0 & <24 | *4
+			val21: string & strings.MinRunes(1) & strings.MaxRunes(1024)
+			val22: string & =~"^[a-zA-Z0-9_-]+$"
+			val23: string & time.Time
+			val24: time.Duration & =~"^((([0-9]+)y)?(([0-9]+)w)?(([0-9]+)d)?(([0-9]+)h)?(([0-9]+)m)?(([0-9]+)s)?(([0-9]+)ms)?|0)$"
+			val25?: [...string] & list.UniqueItems() & list.MaxItems(64)
 		}
 	}
 }
