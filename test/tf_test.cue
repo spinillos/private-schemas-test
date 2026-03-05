@@ -15,11 +15,11 @@ v0alpha1: {
 			val5: [...string] | *["a"]
 			val6: [...string] | *[]
 			val7: [string]: string | *{
-				a: "x",
+				a:   "x"
 				"b": "y"
 			}
 			val8: [string]: string | *{}
-			val9: Enum
+			val9:  Enum
 			val10: Enum & "X"
 			val11: Enum & (*"X" | _)
 			val12: Constant
@@ -40,6 +40,6 @@ v0alpha1: {
 	}
 }
 
-Enum: "X" | "Y" | "Z"
-Enum1: 1 | 2 | 3 @cog(kind="enum", memberNames="M|N|O")
+Enum:     "X" | "Y" | "Z"
+Enum1:    1 | 2 | 3 @cog(kind="enum", memberNames="M|N|O")
 Constant: "Hello"
