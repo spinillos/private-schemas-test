@@ -15,6 +15,9 @@ v0alpha1: {
 			val4: float32 | *3
 			val5: [...string] | *["a"]
 			val6: [...string] | *[]
+			val5a: [...float32] | *[3, 4, 5]
+			val5b: [...int64] | *[3, 4, 5]
+			val5c: [...Enum] | *["Y", "Z"]
 			val7: [string]: string | *{
 				a: "x"
 				b: "y"
