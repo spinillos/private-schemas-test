@@ -21,6 +21,9 @@ v0alpha1: {
 			val13: "w" | "y" | "z"
 			val14: 1 | "a" | *true
 			val15: "hello"
+			val16: #Enum1
+			val17: #Enum1 & 1
+			val18: #Enum1 | *2
 		}
 	}
 }
