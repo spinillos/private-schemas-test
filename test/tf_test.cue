@@ -29,5 +29,5 @@ v0alpha1: {
 }
 
 Enum: "X" | "Y" | "Z"
-Enum1: 1 | 2 | 3 @cog(kind="enum", memberNames="M,N,O")
+Enum1: 1 | 2 | 3 @cog(kind="enum", memberNames="M|N|O")
 Constant: "Hello"
