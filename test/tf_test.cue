@@ -1,7 +1,8 @@
 package test
 
 import (
-	"string"
+	"list"
+	"strings"
 	"time"
 )
 
