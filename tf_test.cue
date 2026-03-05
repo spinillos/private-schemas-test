@@ -20,6 +20,7 @@ v0alpha1: {
 			val12: #Constant
 			val13: "w" | "y" | "z"
 			val14: 1 | "a" | *true
+			val15: "hello"
 		}
 	}
 }
