@@ -40,6 +40,8 @@ v0alpha1: {
 			val23: string & time.Time
 			val24: time.Duration & =~"^((([0-9]+)y)?(([0-9]+)w)?(([0-9]+)d)?(([0-9]+)h)?(([0-9]+)m)?(([0-9]+)s)?(([0-9]+)ms)?|0)$"
 			val25?: [...string] & list.UniqueItems() & list.MaxItems(64)
+			val26: [...Enum]
+			val27: [...Enum1]
 		}
 	}
 }
