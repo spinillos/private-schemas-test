@@ -34,7 +34,7 @@ v0alpha1: {
 			val17: Enum1 & 1
 			val18: Enum1 & (*1 | _)
 			val19: int64 & >=0 & <24 | *4
-			val20: int64 & >=0 & <24 | *4
+			val20: int64 & >=1 & <25 | *4
 			val21: string & strings.MinRunes(1) & strings.MaxRunes(1024)
 			val22: string & =~"^[a-zA-Z0-9_-]+$"
 			val23: string & time.Time
